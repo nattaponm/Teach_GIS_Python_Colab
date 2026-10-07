@@ -6,37 +6,37 @@
 [![GeoPandas](https://img.shields.io/badge/GeoPandas-Vector%20GIS-139C5A.svg)](https://geopandas.org/)
 [![Rasterio](https://img.shields.io/badge/Rasterio-Raster%20GIS-8A2BE2.svg)](https://rasterio.readthedocs.io/)
 [![Folium](https://img.shields.io/badge/Folium-Web%20GIS-2E8B57.svg)](https://python-visualization.github.io/folium/)
-[![Course](https://img.shields.io/badge/Course-10%20Notebooks-blueviolet.svg)](#course-roadmap)
+[![Course](https://img.shields.io/badge/Course-10%20Notebooks-blueviolet.svg)](#เส้นทางการเรียนรู้)
 
-A progressive, hands-on GIS course using **Python and Google Colab**, designed to build spatial thinking from basic vector GIS to raster interpolation and terrain analysis using real geospatial datasets from Thailand.
+ชุดบทเรียน **GIS with Python in Google Colab** สำหรับเรียนรู้ตั้งแต่พื้นฐาน `Vector GIS`, `CRS`, การวัดระยะและพื้นที่, `Spatial Query`, `Spatial Join`, `Buffer`, `Overlay`, `Spatial Statistics` ไปจนถึง `Raster Interpolation`, `DEM` และ `Terrain Analysis` โดยใช้ข้อมูลจริงของประเทศไทย
 
-ชุดบทเรียนนี้ออกแบบให้นิสิตเรียนรู้ GIS ด้วย Python แบบเป็นลำดับ ตั้งแต่การอ่านข้อมูล Vector, CRS, การวัดระยะและพื้นที่, spatial query, spatial join, buffer, overlay, spatial statistics ไปจนถึง raster interpolation, DEM และ terrain analysis โดยใช้ข้อมูลจริงของประเทศไทย
-
----
-
-## Quick Start
-
-The easiest way to use this repository is through **Google Colab**. No local GIS installation is required.
-
-1. Start with **Notebook 01**.
-2. Click **Open in Colab**.
-3. Run cells from top to bottom.
-4. Inspect the outputs, maps, and tables.
-5. Complete the Concept Check and Exercises.
-6. Continue in numerical order for the full learning pathway.
-
-### Start here
-
-- [Notebook 01 on GitHub](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb)
-- [Open Notebook 01 in Google Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb)
+เนื้อหาถูกออกแบบให้เรียนต่อเนื่องจากง่ายไปยาก เหมาะสำหรับนิสิตที่ต้องการเข้าใจทั้งแนวคิด GIS และการเขียน Python เพื่อทำงานวิเคราะห์เชิงพื้นที่อย่างเป็นระบบและทำซ้ำได้
 
 ---
 
-## About This Course
+## เริ่มต้นใช้งานอย่างรวดเร็ว
 
-This repository is designed as a **progressive GIS learning pathway**, not as a collection of independent code examples.
+วิธีที่ง่ายที่สุดคือเปิด Notebook ผ่าน **Google Colab** โดยไม่จำเป็นต้องติดตั้ง GIS software หรือ Python environment ในเครื่อง
 
-The main learning philosophy is:
+1. เริ่มจาก **Notebook 01**
+2. กด **Open in Colab**
+3. รัน cell จากบนลงล่าง
+4. ตรวจผลลัพธ์ ตาราง และแผนที่ที่ได้
+5. ทำ `Concept Check` และ `Exercise`
+6. เรียนต่อไปตามลำดับหมายเลข Notebook
+
+### เริ่มจาก Notebook 01
+
+- [เปิด Notebook 01 บน GitHub](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb)
+- [เปิด Notebook 01 ใน Google Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb)
+
+---
+
+## เกี่ยวกับชุดบทเรียนนี้
+
+Repository นี้ถูกออกแบบเป็น **เส้นทางการเรียนรู้ GIS แบบต่อเนื่อง** ไม่ใช่เพียงการรวมตัวอย่าง code แยกกัน
+
+แนวคิดหลักของการเรียนคือ
 
 ```text
 Inspect
@@ -58,55 +58,56 @@ Model Terrain
 Communicate
 ```
 
-The notebooks gradually move from simple inspection and mapping toward analytical GIS workflows that combine vector, raster, statistics, and interactive Web GIS.
+นิสิตจะเริ่มจากการตรวจข้อมูลและทำแผนที่ ก่อนค่อย ๆ เพิ่มความสามารถในการวัด วิเคราะห์ เชื่อมโยง layer สร้าง raster และวิเคราะห์ภูมิประเทศ
 
 ---
 
-## Who Is This For?
+## เหมาะสำหรับใคร
 
-The materials are suitable for:
+ชุดบทเรียนนี้เหมาะสำหรับ
 
-- Undergraduate students in Years 3–4
-- MSc students in Years 1–2
+- นิสิตปริญญาตรีชั้นปีที่ 3–4
+- นิสิตปริญญาโทชั้นปีที่ 1–2
 - Environmental Science
 - Geography
 - Geoinformatics / GIS
 - Natural Resources
-- Hydrology and related environmental disciplines
+- Hydrology
+- สาขาอื่น ๆ ที่เกี่ยวข้องกับข้อมูลเชิงพื้นที่และสิ่งแวดล้อม
 
-### Recommended background
+### พื้นฐานที่ควรมี
 
-Basic GIS concepts are helpful, but advanced programming experience is **not required**.
+มีความรู้ GIS เบื้องต้นจะช่วยให้เข้าใจได้เร็วขึ้น แต่ไม่จำเป็นต้องมีประสบการณ์เขียน Python ขั้นสูง
 
-The notebooks are designed so that each new concept is introduced with small, readable Python examples before moving to analysis.
-
----
-
-## What Students Will Learn
-
-By the end of the course, students should be able to:
-
-- Read and inspect vector and raster GIS data
-- Understand coordinate reference systems (CRS), EPSG codes, projections, and reprojection
-- Perform attribute and spatial queries
-- Work with administrative hierarchies: Province → District → Tambon
-- Use Point-in-Polygon and Spatial Join
-- Calculate distance, area, count, and density
-- Build buffers and concentric rings
-- Use dissolve, clip, intersection, and difference
-- Understand spatial autocorrelation and Moran's I
-- Convert point observations to raster surfaces
-- Compare IDW, Thin Plate Spline, and Trend Surface interpolation
-- Perform raster-to-polygon zonal statistics
-- Inspect and analyze Digital Elevation Models (DEM)
-- Derive slope, hillshade, and aspect
-- Build publication-quality static maps
-- Build interactive Folium Web GIS maps
-- Export GeoPackage, Shapefile ZIP, CSV, GeoTIFF, PNG, and HTML outputs
+Notebook ถูกออกแบบให้แนะนำแนวคิดทีละขั้น โดยเริ่มจาก code ขนาดเล็กและตรวจผลลัพธ์ก่อนเข้าสู่การวิเคราะห์ที่ซับซ้อนขึ้น
 
 ---
 
-# Course Roadmap
+## เมื่อเรียนจบแล้วจะทำอะไรได้บ้าง
+
+นิสิตควรสามารถ
+
+- อ่านและตรวจสอบ `Vector` และ `Raster` GIS data
+- เข้าใจ `CRS`, `EPSG`, `Projection` และ `Reprojection`
+- ทำ `Attribute Query` และ `Spatial Query`
+- เข้าใจลำดับเขตการปกครอง `Province → District → Tambon`
+- ใช้ `Point-in-Polygon` และ `Spatial Join`
+- คำนวณ `Distance`, `Area`, `Count` และ `Density`
+- สร้าง `Buffer` และ `Concentric Rings`
+- ใช้ `Dissolve`, `Clip`, `Intersection` และ `Difference`
+- เข้าใจ `Spatial Autocorrelation` และ `Moran's I`
+- เปลี่ยน point observations เป็น continuous raster surface
+- เปรียบเทียบ `IDW`, `Thin Plate Spline` และ `Trend Surface`
+- ทำ `Zonal Statistics`
+- อ่านและวิเคราะห์ `Digital Elevation Model (DEM)`
+- คำนวณ `Slope`, `Hillshade` และ `Aspect`
+- สร้าง static map ที่เหมาะสำหรับรายงานหรือ publication
+- สร้าง interactive map ด้วย `Folium`
+- Export ผลลัพธ์เป็น `GeoPackage`, `Shapefile ZIP`, `CSV`, `GeoTIFF`, `PNG` และ `HTML`
+
+---
+
+# เส้นทางการเรียนรู้
 
 ## Stage 1 — GIS Foundations
 
@@ -122,9 +123,9 @@ Projection
 Distance / Area / Scale
 ```
 
-Main question:
+คำถามหลัก:
 
-> What is GIS data, and how can we measure it correctly?
+> ข้อมูล GIS คืออะไร และเราจะวัดระยะทาง พื้นที่ และ scale ให้ถูกต้องได้อย่างไร?
 
 ---
 
@@ -142,9 +143,9 @@ Tambon
 Village Point
 ```
 
-Main question:
+คำถามหลัก:
 
-> How are vector layers organized, related, queried, and summarized?
+> Vector layers ถูกจัดโครงสร้าง เชื่อมโยง Query และสรุปเชิงพื้นที่อย่างไร?
 
 ---
 
@@ -164,9 +165,9 @@ Overlay
 Spatial Statistics
 ```
 
-Main question:
+คำถามหลัก:
 
-> How do spatial patterns change with distance, and how can we test them analytically?
+> Spatial pattern เปลี่ยนตามระยะทางอย่างไร และเราจะทดสอบ pattern ทางสถิติได้อย่างไร?
 
 ---
 
@@ -188,101 +189,99 @@ DEM
 Terrain Derivatives
 ```
 
-Main question:
+คำถามหลัก:
 
-> How can point observations become continuous surfaces, and how can elevation be transformed into terrain information?
+> Point observations สามารถเปลี่ยนเป็น continuous raster surface ได้อย่างไร และ elevation สามารถแปลงเป็น terrain information ได้อย่างไร?
 
 ---
 
-# Notebooks
+# รายการ Notebooks
 
-| No. | Notebook | Main Question | Core Concepts | Colab |
+| No. | Notebook | คำถามหลัก | Core Concepts | Colab |
 |---:|---|---|---|---|
-| 01 | [Python GIS Fundamentals & World Map](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb) | What is GIS data in Python? | GeoDataFrame, vector geometry, attributes, query, static & interactive mapping | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb) |
-| 02 | [CRS, Projection, Distance, Area & Map Scale](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/02_CRS_Projection_Distance_Area_and_Map_Scale.ipynb) | Can I measure spatial data correctly? | CRS, EPSG, reprojection, distance, area, map scale | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/02_CRS_Projection_Distance_Area_and_Map_Scale.ipynb) |
-| 03 | [Thailand Province Area Statistics & Choropleth](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/03_Thailand_Province_Area_Statistics_and_Choropleth.ipynb) | What spatial patterns can I summarize? | Area statistics, classification, choropleth mapping | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/03_Thailand_Province_Area_Statistics_and_Choropleth.ipynb) |
-| 04 | [District Hierarchy & Spatial Query](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/04_Thailand_District_Hierarchy_and_Spatial_Query.ipynb) | How are administrative layers spatially related? | Hierarchy, attribute query, spatial relationship, spatial join, QA/QC | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/04_Thailand_District_Hierarchy_and_Spatial_Query.ipynb) |
-| 05 | [Tambon Detailed Polygon Analysis](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/05_Thailand_Tambon_Detailed_Polygon_Analysis.ipynb) | How do I manage detailed polygons? | ADM3 polygons, hierarchy, area, web GIS, detailed cartography | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/05_Thailand_Tambon_Detailed_Polygon_Analysis.ipynb) |
-| 06 | [Village Points, Spatial Join & Density](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) | How do points become spatial information? | Point-in-polygon, spatial join, count, density | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) |
-| 07 | [Distance, Buffer & Concentric-Ring Analysis](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) | How does spatial pattern change with distance? | Centroid, distance, buffers, concentric rings, cumulative counts | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) |
-| 08 | [Clip, Overlay, Dissolve & Spatial Statistics](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) | How do I integrate layers and test spatial pattern? | Dissolve, clip, intersection, difference, Moran's I, Local Moran | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) |
-| 09 | [Village Point → Raster Spatial Interpolation](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) | How can point observations become a continuous raster? | IDW, TPS, trend surface, raster resolution, zonal statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) |
-| 10 | [DEM & Terrain Analysis: Phitsanulok](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) | How can elevation become terrain information? | DEM, terrain profile, slope, hillshade, aspect, zonal statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) |
+| 01 | [Python GIS Fundamentals & World Map](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb) | GIS data ใน Python คืออะไร? | `GeoDataFrame`, Vector geometry, Attributes, Query, Mapping | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/01_Python_GIS_Fundamentals_World_Map.ipynb) |
+| 02 | [CRS, Projection, Distance, Area & Map Scale](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/02_CRS_Projection_Distance_Area_and_Map_Scale.ipynb) | เราจะวัดข้อมูลเชิงพื้นที่ให้ถูกต้องได้อย่างไร? | `CRS`, `EPSG`, `Reprojection`, Distance, Area, Map Scale | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/02_CRS_Projection_Distance_Area_and_Map_Scale.ipynb) |
+| 03 | [Thailand Province Area Statistics & Choropleth](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/03_Thailand_Province_Area_Statistics_and_Choropleth.ipynb) | เราจะสรุป spatial pattern ระดับจังหวัดได้อย่างไร? | Area Statistics, Classification, Choropleth | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/03_Thailand_Province_Area_Statistics_and_Choropleth.ipynb) |
+| 04 | [District Hierarchy & Spatial Query](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/04_Thailand_District_Hierarchy_and_Spatial_Query.ipynb) | Administrative layers สัมพันธ์กันอย่างไร? | Hierarchy, Attribute Query, Spatial Relationship, Spatial Join, QA/QC | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/04_Thailand_District_Hierarchy_and_Spatial_Query.ipynb) |
+| 05 | [Tambon Detailed Polygon Analysis](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/05_Thailand_Tambon_Detailed_Polygon_Analysis.ipynb) | เราจะจัดการ polygon รายละเอียดสูงได้อย่างไร? | ADM3, Area, Hierarchy, Web GIS, Detailed Cartography | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/05_Thailand_Tambon_Detailed_Polygon_Analysis.ipynb) |
+| 06 | [Village Points, Spatial Join & Density](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) | Point กลายเป็น spatial information ได้อย่างไร? | Point-in-Polygon, Spatial Join, Count, Density | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) |
+| 07 | [Distance, Buffer & Concentric-Ring Analysis](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) | Spatial pattern เปลี่ยนตามระยะทางอย่างไร? | Centroid, Distance, Buffer, Concentric Rings, Cumulative Count | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) |
+| 08 | [Clip, Overlay, Dissolve & Spatial Statistics](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) | เราจะ integrate layers และทดสอบ spatial pattern ได้อย่างไร? | Dissolve, Clip, Intersection, Difference, Moran's I, Local Moran | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) |
+| 09 | [Village Point → Raster Spatial Interpolation](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) | Point observations จะเปลี่ยนเป็น continuous raster ได้อย่างไร? | IDW, TPS, Trend Surface, Raster Resolution, Zonal Statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) |
+| 10 | [DEM & Terrain Analysis: Phitsanulok](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) | Elevation จะเปลี่ยนเป็น terrain information ได้อย่างไร? | DEM, Terrain Profile, Slope, Hillshade, Aspect, Zonal Statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) |
 
 ---
 
 # Concept Progression
 
-The 10 notebooks follow a deliberate sequence of scientific questions:
+Notebook ทั้ง 10 ถูกออกแบบให้ต่อกันผ่านคำถามหลักดังนี้
 
 ```text
-01  What is GIS data?
+01  GIS data คืออะไร?
 
-02  Can I measure it correctly?
+02  เราวัดมันได้ถูกต้องหรือไม่?
 
-03  What spatial patterns can I summarize?
+03  เราสรุป spatial pattern อะไรได้บ้าง?
 
-04  How are layers spatially related?
+04  Layers สัมพันธ์กันทางพื้นที่อย่างไร?
 
-05  How do I manage detailed polygons?
+05  เราจัดการ detailed polygons อย่างไร?
 
-06  How do points become spatial information?
+06  Points กลายเป็น spatial information ได้อย่างไร?
 
-07  How does spatial pattern change with distance?
+07  Spatial pattern เปลี่ยนตาม distance อย่างไร?
 
-08  How do I integrate layers and test spatial pattern?
+08  เรารวม layers และทดสอบ spatial pattern ได้อย่างไร?
 
-09  How can point observations become a continuous raster?
+09  Point observations กลายเป็น continuous raster ได้อย่างไร?
 
-10  How can elevation become terrain information?
+10  Elevation กลายเป็น terrain information ได้อย่างไร?
 ```
 
 ---
 
-# Datasets
-
-The course uses real GIS datasets for Thailand and global examples.
+# ข้อมูลที่ใช้ในชุดบทเรียน
 
 ## Vector datasets
 
-| Dataset | Geometry | Main Use |
+| Dataset | Geometry | การใช้งานหลัก |
 |---|---|---|
-| World Countries | Polygon | Introductory global GIS |
-| Thailand ADM1 — Province | Polygon | Province-level analysis, choropleth, masks |
-| Thailand ADM2 — District | Polygon | Administrative hierarchy, distance analysis |
-| Thailand ADM3 — Tambon | Polygon | Detailed polygon analysis, zonal statistics |
-| Thailand Village Points | Point | Spatial join, density, distance, interpolation |
+| World Countries | Polygon | พื้นฐาน GIS ระดับโลก |
+| Thailand ADM1 — Province | Polygon | Province analysis, Choropleth, Mask |
+| Thailand ADM2 — District | Polygon | Administrative hierarchy, Distance analysis |
+| Thailand ADM3 — Tambon | Polygon | Detailed polygon analysis, Zonal Statistics |
+| Thailand Village Points | Point | Spatial Join, Density, Distance, Interpolation |
 
 ## Raster datasets
 
-| Dataset | Type | Main Use |
+| Dataset | Type | การใช้งานหลัก |
 |---|---|---|
-| `data/wrl_dem_phk1.tif` | SRTM DEM | Elevation and terrain analysis in Notebook 10 |
+| `data/wrl_dem_phk1.tif` | SRTM DEM | Elevation และ Terrain Analysis ใน Notebook 10 |
 
-The notebooks also demonstrate how to download supporting GIS datasets directly from GitHub so that the workflow can be reproduced in Google Colab.
+Notebook หลายบทจะดาวน์โหลด GIS data ที่ต้องใช้จาก GitHub โดยตรง เพื่อให้สามารถรันซ้ำใน Google Colab ได้สะดวก
 
 ---
 
 # Python GIS Stack
 
-| Library | Main Role |
+| Library | หน้าที่หลัก |
 |---|---|
 | **GeoPandas** | Vector GIS |
 | **Shapely** | Geometry operations |
-| **PyProj** | CRS and projection |
+| **PyProj** | CRS และ Projection |
 | **Pandas / NumPy** | Data analysis |
-| **Matplotlib** | Static and publication-quality maps |
+| **Matplotlib** | Static map และ publication-quality figure |
 | **Folium** | Interactive Web GIS |
-| **Rasterio** | Raster GIS and GeoTIFF |
-| **SciPy** | Spatial interpolation and numerical methods |
-| **PySAL / ESDA** | Spatial statistics |
+| **Rasterio** | Raster GIS และ GeoTIFF |
+| **SciPy** | Spatial Interpolation และ numerical methods |
+| **PySAL / ESDA** | Spatial Statistics |
 | **xyzservices** | Web basemap providers |
 
 ---
 
-# Important GIS Principles
+# หลัก GIS สำคัญที่ใช้ตลอดชุดบทเรียน
 
-This course emphasizes reasoning, not only code.
+ชุดนี้เน้นการเข้าใจเหตุผลของการวิเคราะห์ ไม่ใช่เพียงทำให้ code รันได้
 
 > **Correct-looking geometry ≠ correct measurement**
 
@@ -320,18 +319,18 @@ This course emphasizes reasoning, not only code.
 
 ---
 
-# Typical Notebook Structure
+# รูปแบบการเรียนในแต่ละ Notebook
 
-Most notebooks follow a similar teaching pattern:
+Notebook ส่วนใหญ่ใช้โครงสร้างคล้ายกัน
 
 ```text
 Concept
 ↓
 Small Python code
 ↓
-Inspect the result
+Inspect result
 ↓
-Map the data
+Map
 ↓
 Ask a GIS question
 ↓
@@ -344,72 +343,70 @@ Export
 Exercise
 ```
 
-The notebooks are intentionally broken into small steps so that students can connect the code to the GIS concept being taught.
+แนวคิดคือให้เรียนทีละเรื่องและเห็นผลลัพธ์ทันที ก่อนจะรวมเป็น workflow ที่ซับซ้อนขึ้น
 
 ---
 
-# Mapping Approach
+# การทำแผนที่
 
 ## Static Maps
 
-Static maps are used for scientific interpretation and publication-style outputs.
+Static map ใช้สำหรับการตีความเชิงวิชาการและการสร้างรูปสำหรับรายงาน
 
-Typical elements include:
+องค์ประกอบที่เน้น ได้แก่
 
-- Clear title
-- Appropriate legend or colorbar
-- North arrow when useful
-- Scale bar when useful
-- Correct CRS and units
-- Readable labels
-- 300 dpi export
+- Title ที่ชัดเจน
+- Legend หรือ Colorbar ที่เหมาะสม
+- North Arrow เมื่อจำเป็น
+- Scale Bar เมื่อเหมาะสม
+- CRS และหน่วยที่ถูกต้อง
+- Label ที่อ่านได้
+- Export 300 dpi
 
 ## Interactive Maps
 
-Folium maps are used for exploratory GIS and layer comparison.
+ใช้ `Folium` สำหรับ exploratory GIS และการเปรียบเทียบ layer
 
-Typical elements include:
+องค์ประกอบที่ใช้บ่อย ได้แก่
 
 - OpenTopoMap
 - Esri World Topographic
 - Esri World Imagery
-- Operational vector layers
-- Tooltip / popup information
+- Operational layers
+- Tooltip / Popup
 - LayerControl
-- Choropleth layers
+- Choropleth
 
 ---
 
-# Exercises
+# แบบฝึกหัด
 
-Most notebooks contain three levels of practice:
+Notebook ส่วนใหญ่ประกอบด้วย 3 ระดับ
 
 ### Concept Check
 
-Short questions to confirm understanding of the GIS concept.
+คำถามสั้น ๆ เพื่อทบทวนแนวคิดหลัก
 
 ### Core Exercise
 
-A practical task using the same workflow with modified parameters or another area.
+แบบฝึกหัดที่ปรับ parameter หรือเปลี่ยนพื้นที่ศึกษาโดยใช้ workflow เดิม
 
 ### MSc Challenge
 
-An optional advanced task focused on sensitivity analysis, validation, spatial statistics, or methodological interpretation.
-
-Examples include:
+หัวข้อขั้นสูง เช่น
 
 - CRS sensitivity
-- Count vs density interpretation
+- Count vs Density
 - Buffer interval sensitivity
-- Queen vs Rook vs KNN spatial weights
+- Queen vs Rook vs KNN
 - Interpolation validation
 - DEM resolution sensitivity
 
 ---
 
-# Outputs
+# ผลลัพธ์ที่สามารถ Export ได้
 
-Depending on the notebook, students learn to export:
+ขึ้นอยู่กับ Notebook แต่ละบท นิสิตจะได้ฝึก Export ข้อมูลในรูปแบบ
 
 ```text
 PNG
@@ -420,7 +417,7 @@ GeoTIFF
 HTML
 ```
 
-Typical output organization:
+ตัวอย่างโครงสร้าง output:
 
 ```text
 outputs/
@@ -433,7 +430,7 @@ outputs/
 
 ---
 
-# Repository Structure
+# โครงสร้าง Repository
 
 ```text
 Teach_GIS_Python_Colab/
@@ -457,72 +454,73 @@ Teach_GIS_Python_Colab/
 
 ---
 
-# Recommended Learning Order
+# ลำดับการเรียนที่แนะนำ
 
-For the full course, run the notebooks in numerical order.
-
-If you already know basic GIS and Python:
-
-- Start with **02** for CRS and measurement
-- Start with **04** for spatial relationships and spatial join
-- Start with **07** for proximity analysis
-- Start with **09** for raster interpolation
-- Start with **10** for DEM and terrain analysis
-
-However, the strongest learning progression is still:
+แนะนำให้เรียนตามลำดับ
 
 ```text
 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10
 ```
 
----
+หากมีพื้นฐานแล้ว สามารถเลือกเริ่มตามหัวข้อได้ เช่น
 
-# Teaching Philosophy
+- เริ่ม **02** หากต้องการทบทวน `CRS` และการวัด
+- เริ่ม **04** หากสนใจ `Spatial Relationship` และ `Spatial Join`
+- เริ่ม **07** หากสนใจ `Distance` และ `Buffer`
+- เริ่ม **09** หากสนใจ `Raster Interpolation`
+- เริ่ม **10** หากสนใจ `DEM` และ `Terrain Analysis`
 
-The objective is not only to make the code run.
-
-Students should be able to explain:
-
-- Why a CRS is appropriate
-- Why a spatial operation answers a particular question
-- Why normalization changes interpretation
-- Why scale and resolution matter
-- Why visual patterns require statistical caution
-- Why raster and vector representations answer different kinds of questions
-- Why a beautiful map is not automatically a scientifically correct map
+อย่างไรก็ตาม การเรียนตามลำดับ 01–10 จะช่วยให้เห็นความเชื่อมโยงของแนวคิดได้ดีที่สุด
 
 ---
 
-# Author
+# แนวคิดการสอน
 
-**Assoc. Prof. Dr. Nattapon Mahavik**  
-Department of Natural Resources and Environment  
-Faculty of Agriculture, Natural Resources and Environment  
-Naresuan University, Thailand
+เป้าหมายของชุดบทเรียนนี้ไม่ใช่เพียงให้ code รันได้
 
-Teaching and research interests include GIS, remote sensing, weather radar, spatial analysis, environmental applications, and geospatial programming.
+นิสิตควรสามารถอธิบายได้ว่า
+
+- ทำไมต้องเลือก CRS แบบนั้น
+- ทำไม spatial operation หนึ่งจึงเหมาะกับคำถามหนึ่ง
+- ทำไม Count กับ Density ให้ความหมายต่างกัน
+- ทำไม Resolution และ Scale มีผลต่อผลวิเคราะห์
+- ทำไม visual pattern ยังไม่ใช่ statistical evidence
+- ทำไม Vector และ Raster เหมาะกับคำถามคนละประเภท
+- ทำไมแผนที่ที่สวยไม่ได้แปลว่าถูกต้องทางวิทยาศาสตร์เสมอไป
 
 ---
 
-# Use of This Repository
+# ผู้จัดทำ
 
-These materials are intended for:
+**รองศาสตราจารย์ ดร.นัฐพล มหาวิค**  
+ภาควิชาทรัพยากรธรรมชาติและสิ่งแวดล้อม  
+คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม  
+มหาวิทยาลัยนเรศวร
 
-- Classroom teaching
-- Laboratory exercises
+ความสนใจด้านการสอนและวิจัย ได้แก่ GIS, Remote Sensing, Weather Radar, Spatial Analysis, Environmental Applications และ Geospatial Programming
+
+---
+
+# การนำชุดบทเรียนไปใช้
+
+Repository นี้เหมาะสำหรับ
+
+- การเรียนการสอนในชั้นเรียน
+- Laboratory exercise
 - Self-study
-- GIS / Python workshops
-- Adaptation to other environmental datasets and study areas
+- GIS / Python workshop
+- การปรับใช้กับพื้นที่ศึกษาอื่น
+- การประยุกต์กับข้อมูลสิ่งแวดล้อมและทรัพยากรธรรมชาติ
 
-Students are encouraged to modify the study area, datasets, parameters, and map design after understanding the workflow.
+หลังจากเข้าใจ workflow แล้ว นิสิตควรทดลองเปลี่ยนพื้นที่ศึกษา Dataset Parameter และรูปแบบการแสดงผลด้วยตนเอง
 
 ---
 
 # Acknowledgement
 
-This repository uses open-source Python geospatial libraries and publicly available geospatial datasets for educational purposes.
+Repository นี้ใช้ Open-source Python geospatial libraries และข้อมูลภูมิสารสนเทศที่เปิดให้ใช้เพื่อการศึกษา
 
-Users should consult the original data providers and software documentation when applying the workflows to research or operational applications.
+หากนำ workflow ไปใช้ในงานวิจัยหรือการปฏิบัติงานจริง ควรตรวจสอบข้อมูลต้นฉบับ เงื่อนไขการใช้ข้อมูล และ Software documentation ของแต่ละเครื่องมือเพิ่มเติม
 
 ---
 
@@ -546,4 +544,4 @@ DEM & Terrain Analysis
 Scientific Mapping & Communication
 ```
 
-> **Learn the GIS concept first. Use Python to make the analysis reproducible.**
+> **เข้าใจแนวคิด GIS ก่อน แล้วใช้ Python เพื่อทำให้การวิเคราะห์ reproducible**
