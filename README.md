@@ -207,7 +207,7 @@ Terrain Derivatives
 | 06 | [Village Points, Spatial Join & Density](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) | Point กลายเป็น spatial information ได้อย่างไร? | Point-in-Polygon, Spatial Join, Count, Density | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb) |
 | 07 | [Distance, Buffer & Concentric-Ring Analysis](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) | Spatial pattern เปลี่ยนตามระยะทางอย่างไร? | Centroid, Distance, Buffer, Concentric Rings, Cumulative Count | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb) |
 | 08 | [Clip, Overlay, Dissolve & Spatial Statistics](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) | เราจะ integrate layers และทดสอบ spatial pattern ได้อย่างไร? | Dissolve, Clip, Intersection, Difference, Moran's I, Local Moran | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb) |
-| 09 | [Village Point → Raster Spatial Interpolation](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) | Point observations จะเปลี่ยนเป็น continuous raster ได้อย่างไร? | IDW, TPS, Trend Surface, Raster Resolution, Zonal Statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation.ipynb) |
+| 09 | [Village Point → Raster Spatial Interpolation](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation_COMPACT.ipynb) | Point observations จะเปลี่ยนเป็น continuous raster ได้อย่างไร? | IDW, TPS, Trend Surface, Raster Resolution, Zonal Statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/09_Village_Point_to_Raster_Spatial_Interpolation_COMPACT.ipynb) |
 | 10 | [DEM & Terrain Analysis: Phitsanulok](https://github.com/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) | Elevation จะเปลี่ยนเป็น terrain information ได้อย่างไร? | DEM, Terrain Profile, Slope, Hillshade, Aspect, Zonal Statistics | [Open in Colab](https://colab.research.google.com/github/nattaponm/Teach_GIS_Python_Colab/blob/main/10_DEM_Terrain_Analysis_Phitsanulok.ipynb) |
 
 ---
@@ -446,7 +446,7 @@ Teach_GIS_Python_Colab/
 ├── 06_Thailand_Village_Point_Spatial_Join_and_Density.ipynb
 ├── 07_Distance_Buffer_and_Concentric_Ring_Analysis.ipynb
 ├── 08_Clip_Overlay_Dissolve_and_Spatial_Statistics.ipynb
-├── 09_Village_Point_to_Raster_Spatial_Interpolation.ipynb
+├── 09_Village_Point_to_Raster_Spatial_Interpolation_COMPACT.ipynb
 ├── 10_DEM_Terrain_Analysis_Phitsanulok.ipynb
 │
 └── README.md
